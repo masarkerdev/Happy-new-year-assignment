@@ -14,7 +14,7 @@ body {
 .offer-section,
 .cta-section,
 .schedule-section,
-.best-offer-section, .portfolio-section {
+.best-offer-section, .portfolio-section, .subscriber-section {
     width: 100%;
     padding: 20px;
     margin: 0 auto;
@@ -340,3 +340,14 @@ padding-right: 30%;
 }
 
 /*portfolio section designs end here*/
+/*subscriber section designs start here*/
+
+.subcriber-section-wrapper{
+    width: 100%;
+    height: 620px;
+    border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+}
+
+
+/*subscriber section designs start here*/
