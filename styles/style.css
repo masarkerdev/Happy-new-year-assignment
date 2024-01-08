@@ -14,7 +14,9 @@ body {
 .offer-section,
 .cta-section,
 .schedule-section,
-.best-offer-section, .portfolio-section, .subscriber-section {
+.best-offer-section,
+.portfolio-section,
+.subscriber-section {
     width: 100%;
     padding: 20px;
     margin: 0 auto;
@@ -284,23 +286,24 @@ body {
 
 /*schedule section designs end here*/
 /*portfolio section designs start here*/
-.portfolio-section-wrapper{
+.portfolio-section-wrapper {
     width: 100%;
     height: auto;
     margin-top: 100px;
-    
-}
-.porfolio-section-small-text{
-    color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-style: normal;
-font-weight: 500;
-line-height: normal;
+
 }
 
-.portfolio-section-headline
-{color: #070211;
+.porfolio-section-small-text {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio-section-headline {
+    color: #070211;
     font-family: Merriweather;
     font-size: 48px;
     font-style: normal;
@@ -309,31 +312,34 @@ line-height: normal;
     text-transform: capitalize;
 }
 
-.portfolio-images-row-1, .portfolio-images-row-2{
+.portfolio-images-row-1,
+.portfolio-images-row-2 {
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
 }
-.portfolio-section-para{
+
+.portfolio-section-para {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-style: normal;
-font-weight: 400;
-line-height: 32px; 
-padding-right: 30%;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    padding-right: 30%;
 }
 
-.portfolio-section-images-wrapper{
+.portfolio-section-images-wrapper {
     margin-top: 35px;
 }
-.image1{
+
+.image1 {
     margin: 10px;
     transition: transform .5s;
 }
 
-.image1:hover{
+.image1:hover {
     opacity: .8;
     transform: scale(0.9);
 
@@ -342,12 +348,20 @@ padding-right: 30%;
 /*portfolio section designs end here*/
 /*subscriber section designs start here*/
 
-.subcriber-section-wrapper{
+.subcriber-section-wrapper {
     width: 100%;
     height: 620px;
     border-radius: 16px;
-background: rgba(255, 0, 0, 0.05);
+    background: rgba(255, 0, 0, 0.05);
+    text-align: center;
 }
 
+
+.email-id{
+    padding: 15px ;
+    width: 300px;
+    border: 0px;
+    border-radius: 30px;
+}
 
 /*subscriber section designs start here*/
