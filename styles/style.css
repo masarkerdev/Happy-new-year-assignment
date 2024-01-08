@@ -14,7 +14,7 @@ body {
 .offer-section,
 .cta-section,
 .schedule-section,
-.best-offer-section {
+.best-offer-section, .portfolio-section {
     width: 100%;
     padding: 20px;
     margin: 0 auto;
