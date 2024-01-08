@@ -330,6 +330,13 @@ padding-right: 30%;
 }
 .image1{
     margin: 10px;
+    transition: transform .5s;
+}
+
+.image1:hover{
+    opacity: .8;
+    transform: scale(0.9);
+
 }
 
 /*portfolio section designs end here*/
