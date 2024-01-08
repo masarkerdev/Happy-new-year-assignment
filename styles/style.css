@@ -284,12 +284,49 @@ body {
 
 /*schedule section designs end here*/
 /*portfolio section designs start here*/
+.portfolio-section-wrapper{
+    width: 100%;
+    height: auto;
+    margin-top: 100px;
+    
+}
+.porfolio-section-small-text{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.portfolio-section-headline
+{color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
 
 .portfolio-images-row-1, .portfolio-images-row-2{
     width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
+}
+.portfolio-section-para{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; 
+padding-right: 30%;
+}
+
+.portfolio-section-images-wrapper{
+    margin-top: 35px;
 }
 .image1{
     margin: 10px;
