@@ -367,8 +367,13 @@ body {
     width: 150px;
     height: 150px;
     margin-bottom: 35px;
+    transition: transform .5s;
+    
 }
 
+.email-photo:hover{transform: scale(1.1);
+
+}
 .subscriber-section-healine {
     color: #070211;
     text-align: center;
