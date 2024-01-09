@@ -432,7 +432,7 @@ body {}
 /*footer section designs start here*/
 footer {
     background-color: #070211;
-    width important;
+
 }
 
 .footer-section-wrapper {
@@ -442,7 +442,6 @@ footer {
 
 .footer-section-row1 {
     width: 100%;
-    padding: 20px;
     display: inline-flex;
     justify-content: space-between;
 
@@ -481,4 +480,26 @@ footer {
     margin-left: 8px;
 }
 
+.footer-section-row2{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+hr{
+    height:1px;
+    border-width:0;
+    color:rgb(255, 255, 255);
+    background-color:rgba(253, 253, 253, 0.37);
+}
+.footerSection-row2-middle{
+    padding: 50px 0px;
+    display: block;
+   
+}
+.footerSection-row2-middle >img{
+    margin: 8px;
+   
+}
 /*subscriber section designs end here*/
