@@ -444,6 +444,8 @@ footer {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 40px;
 
 }
 
@@ -480,26 +482,50 @@ footer {
     margin-left: 8px;
 }
 
-.footer-section-row2{
+.footer-section-row2 {
     width: 100%;
     display: inline-block;
     text-align: center;
 
 }
 
-hr{
-    height:1px;
-    border-width:0;
-    color:rgb(255, 255, 255);
-    background-color:rgba(253, 253, 253, 0.37);
+hr {
+    height: 1px;
+    border-width: 0;
+    color: rgb(255, 255, 255);
+    background-color: rgba(253, 253, 253, 0.247);
 }
-.footerSection-row2-middle{
-    padding: 50px 0px;
+
+.footerSection-row2-middle {
+    padding: 40px 0px;
     display: block;
-   
+
 }
-.footerSection-row2-middle >img{
+
+.footerSection-row2-middle > a {
     margin: 8px;
-   
+
 }
+
+.footer-section-row3 {
+    width: 100%;
+}
+
+.footerSection-row3-left {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.footerSection-row3-left>h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+}
+
 /*subscriber section designs end here*/
