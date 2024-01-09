@@ -4,10 +4,7 @@
     font-family: 'Inter', sans-serif, 'Merriweather', serif;
 }
 
-body {
-    max-width: 1320px;
-    margin: 0 auto;
-}
+body {}
 
 /*shared design*/
 .hero-section,
@@ -16,8 +13,10 @@ body {
 .schedule-section,
 .best-offer-section,
 .portfolio-section,
-.subscriber-section {
-    width: 100%;
+.subscriber-section,
+.footer-section {
+    max-width: 1320px;
+    ;
     padding: 20px;
     margin: 0 auto;
 
@@ -368,12 +367,14 @@ body {
     height: 150px;
     margin-bottom: 35px;
     transition: transform .5s;
-    
-}
-
-.email-photo:hover{transform: scale(1.1);
 
 }
+
+.email-photo:hover {
+    transform: scale(1.1);
+
+}
+
 .subscriber-section-healine {
     color: #070211;
     text-align: center;
@@ -421,9 +422,63 @@ body {
 
 
 }
-.Submit-buttoin:hover{
+
+.Submit-buttoin:hover {
     background-color: #070211;
-    
+
 }
 
-/*subscriber section designs start here*/
+/*subscriber section designs end here*/
+/*footer section designs start here*/
+footer {
+    background-color: #070211;
+    width important;
+}
+
+.footer-section-wrapper {
+    padding: 80px auto;
+    width: 100%;
+}
+
+.footer-section-row1 {
+    width: 100%;
+    padding: 20px;
+    display: inline-flex;
+    justify-content: space-between;
+
+}
+
+.footerSection-row1-left {
+    padding: 10px;
+
+}
+
+.row1-leftside-text {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 30px;
+    margin-right: 40%;
+}
+
+.footerSection-row1-right {
+    display: inline-block;
+
+}
+
+.row1-rigt-iconText {
+    color: white;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.r1text {
+    margin-left: 8px;
+}
+
+/*subscriber section designs end here*/
