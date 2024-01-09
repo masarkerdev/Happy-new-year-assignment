@@ -158,9 +158,16 @@ body {}
     text-transform: uppercase;
     background-color: transparent;
     border: none;
-    margin-top: 20px;
+    padding: 20px;
+    margin-top: 10px;
+    border-radius: 5px;
 }
-
+.cta-left-btn:hover{
+    background-color: #F00;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
 /*schedule section designs start here*/
 
 .scheule-section-wrapper {
@@ -432,12 +439,14 @@ body {}
 /*footer section designs start here*/
 footer {
     background-color: #070211;
+    margin-top: 100px;
 
 }
 
 .footer-section-wrapper {
     padding: 80px auto;
     width: 100%;
+   
 }
 
 .footer-section-row1 {
