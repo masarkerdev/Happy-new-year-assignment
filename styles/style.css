@@ -354,14 +354,71 @@ body {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
     text-align: center;
+    margin-top: 100px;
 }
 
+.subscriber-sections-contents {
+    display: inline-block;
+    justify-content: center;
+    padding-top: 80px;
+}
 
-.email-id{
-    padding: 15px ;
-    width: 300px;
+.email-photo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 35px;
+}
+
+.subscriber-section-healine {
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.subscriber-section-para {
+    width: 900px;
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 50px;
+}
+
+.email-id {
+    padding: 25px 120px 25px 30px;
     border: 0px;
-    border-radius: 30px;
+    font-family: inter;
+    font-size: 18px;
+    color: lightgray;
+    border-radius: 50px 0px 0px 50px;
+    margin: auto;
+}
+
+.Submit-buttoin {
+    border: 0px;
+    background-color: #F00;
+    font-family: inter;
+    font-size: 18px;
+    color: white;
+    border-radius: 0px 50px 50px 0px;
+    padding: 25px 56px;
+    margin: 0 -10px;
+    transition-duration: 500ms;
+
+
+}
+.Submit-buttoin:hover{
+    background-color: #070211;
+    
 }
 
 /*subscriber section designs start here*/
