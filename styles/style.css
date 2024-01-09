@@ -506,6 +506,14 @@ hr {
     margin: 8px;
 
 }
+.footerSection-row2-middle > a .ima1{
+    transition: 1500ms;
+
+}
+.footerSection-row2-middle > a .ima1:hover {
+    transform: rotate(360deg);
+
+}
 
 .footer-section-row3 {
     width: 100%;
