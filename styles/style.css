@@ -12,6 +12,7 @@ body {}
 .cta-section,
 .schedule-section,
 .best-offer-section,
+.holiday-sale-section,
 .portfolio-section,
 .subscriber-section,
 .footer-section {
@@ -162,12 +163,14 @@ body {}
     margin-top: 10px;
     border-radius: 5px;
 }
-.cta-left-btn:hover{
+
+.cta-left-btn:hover {
     background-color: #F00;
     padding: 20px;
     border-radius: 5px;
-    
+
 }
+
 /*schedule section designs start here*/
 
 .scheule-section-wrapper {
@@ -291,6 +294,105 @@ body {}
 }
 
 /*schedule section designs end here*/
+
+/*holiday sale section designs start here*/
+
+.holiday-sale-row2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.holiday-sale-row3 {
+    width: 100%;
+    background-color: red;
+    border-radius: 16px 0px 16px 16px;
+}
+
+.flash-photo {
+    margin-top: -380px;
+}
+
+.aoffers {
+    position: absolute;
+    margin-top: -330px;
+    margin-left: -180px;
+    width: 15%;
+    transition: 900ms;
+}
+
+.aoffer>a .aoffers:hover {
+    transform: rotate(180deg);
+}
+
+.left-pic {
+    width: 50%;
+    height: auto;
+}
+
+.holiday-sale-row3 .holiday-sale-row2 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.right-pic {
+    margin-bottom: -4px;
+
+}
+
+.holiday-sale-row1 {
+    display: block;
+    text-align: center;
+}
+
+.tagline {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.headline {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.highlight {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+
+}
+
+.holida-sale-row1-para {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+    margin: 20px 220px;
+}
+
+.holiday-sale-section {
+    margin-top: 100px;
+}
+
+/*holiday sale section designs end here*/
+
+
+
 /*portfolio section designs start here*/
 .portfolio-section-wrapper {
     width: 100%;
@@ -446,7 +548,7 @@ footer {
 .footer-section-wrapper {
     padding: 80px auto;
     width: 100%;
-   
+
 }
 
 .footer-section-row1 {
@@ -511,15 +613,17 @@ hr {
 
 }
 
-.footerSection-row2-middle > a {
+.footerSection-row2-middle>a {
     margin: 8px;
 
 }
-.footerSection-row2-middle > a .ima1{
+
+.footerSection-row2-middle>a .ima1 {
     transition: 1500ms;
 
 }
-.footerSection-row2-middle > a .ima1:hover {
+
+.footerSection-row2-middle>a .ima1:hover {
     transform: rotate(360deg);
 
 }
